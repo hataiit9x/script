@@ -160,8 +160,8 @@ then
   yum install -y php56w-intl
   yum install -y php56w-bcmath
   
-  yum install -y yum-plugin-replace
-  yum replace php-common --replace-with=php56w-common
+  #yum install -y yum-plugin-replace
+  #yum replace php-common --replace-with=php56w-common
 
   
   #/etc/php-fpm.d/www.conf
