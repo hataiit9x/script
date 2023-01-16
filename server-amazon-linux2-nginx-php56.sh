@@ -188,10 +188,10 @@ then
   setPermission
   
   #curl -sL https://deb.nodesource.com/setup_12.x | bash -
-  yum install -y nodejs
-  npm install pm2 -g
-  
-  amazon-linux-extras install epel
-  yum install redis -y
-  systemctl start redis.service
+   #yum install -y nodejs
+  #npm install pm2 -g
+  yum install -y figlet
+   #amazon-linux-extras install epel
+   #yum install redis -y
+   #systemctl start redis.service
 fi
